@@ -1,10 +1,13 @@
 print("Comienzo")
 
-numero_a = int(input("Por favor inserte el primer valor"))
-numero_c = int(input("Por favor inserte el segundo valor"))
+import math
+numero_b = int(input("Por favor inserte el valor de b"))
+numero_d = int(input("Por favor inserte el valor de d"))
 
-z= numero_a * numero_c
-y=numero_a ** 2
+cuadrado_b=numero_b ** 4
+raiz=math.sqrt(numero_d)
 
-print (z)
-print (y)
+print("El cuadrado de b es:" + str(cuadrado_b))
+print("La raiz es:" + str(raiz))
+
+
