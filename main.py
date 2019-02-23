@@ -3,7 +3,7 @@ print("Comienza")
 import math
 
 print (Calculo de raices)
-a=int(input(Por favor, inserte le valor de a))
+a=int(input("Por favor, inserte le valor de a"))
 b=int(input("Por favor, inserte el valor de b"))
 c=int(input("Por favor, inserte el valor de C"))
 
